@@ -1076,6 +1076,43 @@
           }
         }
       },
+      "NLog.Extensions.Logging/5.3.13": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "NLog": "5.3.4"
+        },
+        "compile": {
+          "lib/net8.0/NLog.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/NLog.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NLog.Web.AspNetCore/5.3.14": {
+        "type": "package",
+        "dependencies": {
+          "NLog.Extensions.Logging": "5.3.13"
+        },
+        "compile": {
+          "lib/net8.0/NLog.Web.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/NLog.Web.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Npgsql/8.0.5": {
         "type": "package",
         "dependencies": {
@@ -3564,6 +3601,58 @@
         "nlog.nuspec"
       ]
     },
+    "NLog.Extensions.Logging/5.3.13": {
+      "sha512": "i1n5+ZB6Hd5na2eWj7zjeIH4SS3qzmSgoSIGpxp3B0lJ8p/Cmg59NrDE9GReAAmKbQVbP0d/+e3S/6j79Tnaww==",
+      "type": "package",
+      "path": "nlog.extensions.logging/5.3.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "N.png",
+        "README.md",
+        "lib/net461/NLog.Extensions.Logging.dll",
+        "lib/net461/NLog.Extensions.Logging.xml",
+        "lib/net6.0/NLog.Extensions.Logging.dll",
+        "lib/net6.0/NLog.Extensions.Logging.xml",
+        "lib/net8.0/NLog.Extensions.Logging.dll",
+        "lib/net8.0/NLog.Extensions.Logging.xml",
+        "lib/netstandard1.3/NLog.Extensions.Logging.dll",
+        "lib/netstandard1.3/NLog.Extensions.Logging.xml",
+        "lib/netstandard1.5/NLog.Extensions.Logging.dll",
+        "lib/netstandard1.5/NLog.Extensions.Logging.xml",
+        "lib/netstandard2.0/NLog.Extensions.Logging.dll",
+        "lib/netstandard2.0/NLog.Extensions.Logging.xml",
+        "lib/netstandard2.1/NLog.Extensions.Logging.dll",
+        "lib/netstandard2.1/NLog.Extensions.Logging.xml",
+        "nlog.extensions.logging.5.3.13.nupkg.sha512",
+        "nlog.extensions.logging.nuspec"
+      ]
+    },
+    "NLog.Web.AspNetCore/5.3.14": {
+      "sha512": "cc6VM07vrRI73JhIhC2LWyDKgFtgNfXf5UmJ4841qhp81nCN5CmOm3/YIA0YgStOWihrM3jVNlNQtDgsZ6wrJg==",
+      "type": "package",
+      "path": "nlog.web.aspnetcore/5.3.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "N.png",
+        "README.md",
+        "lib/net461/NLog.Web.AspNetCore.dll",
+        "lib/net461/NLog.Web.AspNetCore.xml",
+        "lib/net5.0/NLog.Web.AspNetCore.dll",
+        "lib/net5.0/NLog.Web.AspNetCore.xml",
+        "lib/net6.0/NLog.Web.AspNetCore.dll",
+        "lib/net6.0/NLog.Web.AspNetCore.xml",
+        "lib/net8.0/NLog.Web.AspNetCore.dll",
+        "lib/net8.0/NLog.Web.AspNetCore.xml",
+        "lib/netcoreapp3.1/NLog.Web.AspNetCore.dll",
+        "lib/netcoreapp3.1/NLog.Web.AspNetCore.xml",
+        "lib/netstandard2.0/NLog.Web.AspNetCore.dll",
+        "lib/netstandard2.0/NLog.Web.AspNetCore.xml",
+        "nlog.web.aspnetcore.5.3.14.nupkg.sha512",
+        "nlog.web.aspnetcore.nuspec"
+      ]
+    },
     "Npgsql/8.0.5": {
       "sha512": "zRG5V8cyeZLpzJlKzFKjEwkRMYIYnHWJvEor2lWXeccS2E1G2nIWYYhnukB51iz5XsWSVEtqg3AxTWM0QJ6vfg==",
       "type": "package",
@@ -4649,6 +4738,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.10",
       "NLog >= 5.3.4",
+      "NLog.Web.AspNetCore >= 5.3.14",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.10",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "System.IdentityModel.Tokens.Jwt >= 8.2.0"
@@ -4660,11 +4750,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SivakumarArjunan\\Downloads\\EmployeeManagementSystemWithvalidator (2)\\EmployeeManagementSystemWithvalidator\\Employee System\\Employee System.csproj",
+      "projectUniqueName": "C:\\Users\\SivakumarArjunan\\Downloads\\Employee System (1)\\Employee System\\Employee System.csproj",
       "projectName": "Employee System",
-      "projectPath": "C:\\Users\\SivakumarArjunan\\Downloads\\EmployeeManagementSystemWithvalidator (2)\\EmployeeManagementSystemWithvalidator\\Employee System\\Employee System.csproj",
+      "projectPath": "C:\\Users\\SivakumarArjunan\\Downloads\\Employee System (1)\\Employee System\\Employee System.csproj",
       "packagesPath": "C:\\Users\\SivakumarArjunan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SivakumarArjunan\\Downloads\\EmployeeManagementSystemWithvalidator (2)\\EmployeeManagementSystemWithvalidator\\Employee System\\obj\\",
+      "outputPath": "C:\\Users\\SivakumarArjunan\\Downloads\\Employee System (1)\\Employee System\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SivakumarArjunan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4732,6 +4822,10 @@
           "NLog": {
             "target": "Package",
             "version": "[5.3.4, )"
+          },
+          "NLog.Web.AspNetCore": {
+            "target": "Package",
+            "version": "[5.3.14, )"
           },
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",

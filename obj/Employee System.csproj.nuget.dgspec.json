@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SivakumarArjunan\\Downloads\\EmployeeManagementSystemWithvalidator (2)\\EmployeeManagementSystemWithvalidator\\Employee System\\Employee System.csproj": {}
+    "C:\\Users\\SivakumarArjunan\\Downloads\\Employee System (1)\\Employee System\\Employee System.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SivakumarArjunan\\Downloads\\EmployeeManagementSystemWithvalidator (2)\\EmployeeManagementSystemWithvalidator\\Employee System\\Employee System.csproj": {
+    "C:\\Users\\SivakumarArjunan\\Downloads\\Employee System (1)\\Employee System\\Employee System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SivakumarArjunan\\Downloads\\EmployeeManagementSystemWithvalidator (2)\\EmployeeManagementSystemWithvalidator\\Employee System\\Employee System.csproj",
+        "projectUniqueName": "C:\\Users\\SivakumarArjunan\\Downloads\\Employee System (1)\\Employee System\\Employee System.csproj",
         "projectName": "Employee System",
-        "projectPath": "C:\\Users\\SivakumarArjunan\\Downloads\\EmployeeManagementSystemWithvalidator (2)\\EmployeeManagementSystemWithvalidator\\Employee System\\Employee System.csproj",
+        "projectPath": "C:\\Users\\SivakumarArjunan\\Downloads\\Employee System (1)\\Employee System\\Employee System.csproj",
         "packagesPath": "C:\\Users\\SivakumarArjunan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SivakumarArjunan\\Downloads\\EmployeeManagementSystemWithvalidator (2)\\EmployeeManagementSystemWithvalidator\\Employee System\\obj\\",
+        "outputPath": "C:\\Users\\SivakumarArjunan\\Downloads\\Employee System (1)\\Employee System\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SivakumarArjunan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -79,6 +79,10 @@
             "NLog": {
               "target": "Package",
               "version": "[5.3.4, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.14, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",

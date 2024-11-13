@@ -28,7 +28,7 @@ namespace Employee_System.Controllers
             _mapper = mapper;
         }
 
-        [Authorize(Roles = "Admin,Employee")]
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<AttendanceDTO>>> GetAllAttendancesAsync()
         {
@@ -46,7 +46,7 @@ namespace Employee_System.Controllers
             }
         }
 
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Employee")]
         [HttpGet("{id}")]
         public async Task<ActionResult<AttendanceDTO>> GetAttendanceByIdAsync(int id)
         {
