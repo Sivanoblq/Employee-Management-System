@@ -36,7 +36,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Register repositories and services
 builder.Services.AddScoped<IGenericRepository<Employee>, EmployeeRepository>();
@@ -159,9 +159,9 @@ async Task SeedRolesAsync(RoleManager<IdentityRole> roleManager)
     // Define roles with custom Ids
     var roles = new List<IdentityRole>
     {
-        new IdentityRole { Id = "Admin", Name = "Admin", NormalizedName = "ADMIN" },
-        new IdentityRole { Id = "HR", Name = "HR", NormalizedName = "HR" },
-        new IdentityRole { Id = "Employee", Name = "Employee", NormalizedName = "EMPLOYEE" }
+        new IdentityRole { Id = "1", Name = "Admin", NormalizedName = "ADMIN" },
+        new IdentityRole { Id = "2", Name = "HR", NormalizedName = "HR" },
+        new IdentityRole { Id = "3", Name = "Employee", NormalizedName = "EMPLOYEE" }
     };
 
     foreach (var role in roles)

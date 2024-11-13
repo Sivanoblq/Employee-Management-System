@@ -4750,11 +4750,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SivakumarArjunan\\Downloads\\Employee System (1)\\Employee System\\Employee System.csproj",
+      "projectUniqueName": "D:\\OneDrive - ERP Logic LLC\\Desktop\\New folder\\Employee-Management-System\\Employee System.csproj",
       "projectName": "Employee System",
-      "projectPath": "C:\\Users\\SivakumarArjunan\\Downloads\\Employee System (1)\\Employee System\\Employee System.csproj",
+      "projectPath": "D:\\OneDrive - ERP Logic LLC\\Desktop\\New folder\\Employee-Management-System\\Employee System.csproj",
       "packagesPath": "C:\\Users\\SivakumarArjunan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SivakumarArjunan\\Downloads\\Employee System (1)\\Employee System\\obj\\",
+      "outputPath": "D:\\OneDrive - ERP Logic LLC\\Desktop\\New folder\\Employee-Management-System\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SivakumarArjunan\\AppData\\Roaming\\NuGet\\NuGet.Config",
